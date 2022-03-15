@@ -1,0 +1,6 @@
+rules:
+  - name: match-all-verbs
+    type: basic
+    label: examples
+    pattern: |
+      (?<verb>[tag=/V.*/])
